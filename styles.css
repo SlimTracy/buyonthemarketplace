@@ -1,44 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #3b5998;
-    color: #fff;
-    padding: 15px;
-    text-align: center;
-  }
-  
-  nav {
-    background-color: #f0f2f5;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  nav a {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    text-decoration: none;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  nav a:hover {
-    background-color: #ddd;
-  }
-  
-  .container {
-    padding: 20px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    nav a {
-      display: block;
-      margin: 5px 0;
-    }
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5; /* Added a background color for the body */
+}
+
+header {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 20px; /* Increased padding for better spacing */
+  text-align: center;
+}
+
+nav {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Added smooth transition */
+}
+
+nav a:hover {
+  background-color: #f0f2f5; /* Changed hover background color */
+}
+
+.container {
+  padding: 20px;
+  text-align: center; /* Centering the container content */
+}
+
+#searchForm {
+  display: flex; /* Using flexbox for better alignment */
+  justify-content: center; /* Centering horizontally */
+  margin-bottom: 20px; /* Added some space between search bar and other content */
+}
+
+#searchInput {
+  padding: 15px; 
+  font-size: 16px; /* Reduced font size for better proportion */
+  border: none; /* Removed border */
+  border-radius: 25px; 
+  width: 300px; 
+  margin-right: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+#searchInput:focus {
+  outline: none; 
+}
+
+#searchInput::placeholder {
+  color: #999; 
+}
+
+#searchBtn {
+  padding: 15px 30px; 
+  font-size: 16px; 
+  background-color: #3b5998; 
+  color: #fff; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added shadow */
+  transition: background-color 0.3s ease; 
+}
+
+#searchBtn:hover {
+  background-color: #2d4373; 
+}
