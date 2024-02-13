@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Buy On The Market</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/search.css' rel='stylesheet'>
 </head>
 <body>
 
@@ -22,10 +23,16 @@
 
 <div class="container">
   <form id="searchForm">
-    <input type="text" id="searchInput" placeholder="Search...">
-    <button type="submit">Search</button>
+    <div id="searchIcon" onclick="submitSearch()">
+      <i class="gg-search"></i> <!-- Search icon -->
+    </div>
+    <input type="text" id="searchInput" placeholder="Search for products...">
   </form>
 </div>
+
+<footer>
+  <p>&copy; 2024 Buy On The Market. All rights reserved.</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
