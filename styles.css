@@ -183,3 +183,81 @@ footer {
   margin-top: auto;
 
 }
+
+
+/* Add these styles to your existing CSS */
+
+.email-signup-form {
+  margin-top: 5%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input {
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  display: inline-block;
+}
+
+.contact-form input::placeholder {
+  color: #999;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  padding: 12px 24px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #2d4373;
+}
+
+.contact-form input:focus {
+  border-color: #3b5998;
+}
+
+.contact-form .form-button {
+  text-align: center;
+}
+
+/* Add these styles to your existing CSS */
+
+.contact-form textarea {
+  width: calc(100% - 20px);
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  display: inline-block;
+  resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+.contact-form textarea::placeholder {
+  color: #999;
+}
+
+/* ... your existing styles ... */
