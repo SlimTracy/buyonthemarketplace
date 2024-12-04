@@ -126,6 +126,16 @@ p {
   color: #ff6600;
 }
 
+/* PDF Cover Styling */
+.pdf-cover {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px; /* Adjust width for consistency */
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-radius: 5px; /* Optional rounded corners */
+}
+
 /* Testimonials Section */
 .testimonials {
   padding: 40px 20px;
@@ -159,67 +169,6 @@ p {
   color: #555;
 }
 
-/* Mailchimp Embed Form Styling */
-#mc_embed_signup {
-  background: #fff;
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
-  width: 100%; /* Let it scale responsively */
-  max-width: 400px; /* Restrict the width */
-  margin: 0 auto; /* Center the form */
-  padding: 20px; /* Add some padding for a neat appearance */
-  border-radius: 8px; /* Rounded corners for modern look */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-#mc_embed_signup h2 {
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
-#mc_embed_signup .mc-field-group {
-  margin-bottom: 15px;
-}
-
-#mc_embed_signup label {
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-#mc_embed_signup input[type="email"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1em;
-}
-
-#mc_embed_signup .button {
-  width: 100%;
-  background-color: #ff6600;
-  color: white;
-  padding: 10px;
-  font-size: 1em;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-  transition: background-color 0.3s;
-}
-
-#mc_embed_signup .button:hover {
-  background-color: #e65c00;
-}
-
-#mc_embed_signup .refferal_badge {
-  display: block;
-  margin: 10px auto;
-  max-width: 200px;
-  height: auto;
-}
-
 /* Footer Styling */
 footer {
   margin-top: auto; /* Pushes the footer to the bottom */
@@ -229,4 +178,87 @@ footer {
   font-size: 0.9em;
   color: #666;
   border-top: 1px solid #ccc;
+}
+
+/* Showcase for Larger PDF Cover */
+.pdf-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.pdf-large-cover {
+  max-width: 400px; /* Large width for emphasis */
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+  border-radius: 10px; /* Smooth corners */
+}
+
+/* Adjust alignment of the form */
+#mc_embed {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Showcase for Larger PDF Cover */
+.pdf-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.pdf-large-cover {
+  max-width: 400px; /* Large width for emphasis */
+  height: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow for depth */
+  border-radius: 10px; /* Smooth corners */
+}
+
+/* Mailchimp Form Styling */
+#mc_embed {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#mc_embed_signup h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#mc_embed_signup input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+#mc_embed_signup .button {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #005bb5;
 }
